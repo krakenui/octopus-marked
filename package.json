@@ -34,7 +34,7 @@
   },
   "homepage": "https://github.com/krakenui/octopus-marked.git#readme",
   "license": "MIT",
-  "name": "react-marked-markdown",
+  "name": "octopus-marked",
   "peerDependencies": {
     "react": "^15.2.1"
   },
@@ -45,7 +45,6 @@
   "scripts": {
     "lint": "eslint ./src",
     "lintfix": "eslint ./src --fix",
-    "prepare": "babel src --plugins \"transform-runtime\" --ignore __tests__ --out-dir ./dist",
     "test": "npm run lint && npm run testonly",
     "test-watch": "npm run testonly -- --watch --watch-extensions js",
     "testonly": "mocha --require scripts/mocha_runner src/**/__tests__/**/*.js"
